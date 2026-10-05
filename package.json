@@ -1,0 +1,20 @@
+{
+  "name": "diff-constraint-dsu",
+  "version": "1.0.0",
+  "description": "带势并查集精确整数差值约束与矛盾链解释后端（TypeScript + Node.js + SQLite）",
+  "type": "module",
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node --test dist-test/",
+    "start": "npm run build && node dist/server.js",
+    "demo": "npm run build && node dist/cli.js demo",
+    "cli": "npm run build && node dist/cli.js"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "^5.6.0"
+  }
+}
