@@ -1,0 +1,17 @@
+{
+  "name": "weighted-dsu-diff-constraints",
+  "version": "1.0.0",
+  "private": true,
+  "description": "带势并查集差值约束与矛盾链解释后端（TypeScript + Node.js + SQLite）",
+  "scripts": {
+    "build": "tsc",
+    "test": "npm run build && node dist/test/run-tests.js",
+    "demo": "npm run build && node dist/src/demo.js",
+    "start": "node dist/src/cli.js serve",
+    "cli": "node dist/src/cli.js"
+  },
+  "devDependencies": {
+    "@types/node": "*",
+    "typescript": "*"
+  }
+}
